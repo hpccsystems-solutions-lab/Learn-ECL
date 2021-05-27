@@ -86,5 +86,7 @@ OUTPUT(NumOne, NAMED('ActionThis'));
 2 * 3;
 
 ```
+## Next Topics
+[Setup your Development Environment](./ideSetup.md)
 
-[To see definition types](./definitionTypes.md)
+[Learn about ECL Definition Types](./definitionTypes.md)

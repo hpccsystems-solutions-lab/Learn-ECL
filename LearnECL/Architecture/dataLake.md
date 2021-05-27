@@ -62,9 +62,9 @@ HPCC Systems Data Lake comprises of three elements:
 
 The **ECL program** is the application/code that is executed to read, transform and analyze data.
 
-**Thor** is a **batch** processing cluster for ECL programs and data. The Thor executed programs are usually long running (more than a few seconds).
+**Thor** is a **Bulk** processing cluster for processing data in bulk. The Thor executed programs are usually long running (more than a few seconds).
 
-**ROXIE** is a **real-time** API/Query cluster for ECL programs and data. ROXIE programs execute in sub second times and provide for very high concurrency. 
+**ROXIE** is a **Real-time** API/Query cluster for querying data. ROXIE programs execute in sub second times and provide for very high concurrency. 
 
 The core design goals for both Thor and Roxie are the same. Both process the data by using a divide and conquer approach. Data is divided into parts and processed in parallel.
 
