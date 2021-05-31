@@ -89,4 +89,6 @@ OUTPUT(NumOne, NAMED('ActionThis'));
 ## Next Topics
 [Setup your Development Environment](./ideSetup.md)
 
-[Learn about ECL Definition Types](./definitionTypes.md)
+[Data Handling](./dataHandling.md)
+
+[ECL Data Types](./dataTypes.md)
