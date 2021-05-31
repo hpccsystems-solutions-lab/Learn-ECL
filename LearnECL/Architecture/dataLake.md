@@ -112,7 +112,7 @@ To define it simply, Thor is like a database server technology. Just like Oracle
 
 **Data Organization in Thor:**
 
-![](./Images/thor-master-slave.png)
+![](./Images/thor-data-organization.png)
 
 The Thor cluster is based on a **manager** and **worker** design. In effect, you have one manager process and many worker processes. The job of the worker processes is to process one portion or part of an input data file. The manager process acts as the delegator and coordinator of all the workers. 
 
@@ -136,7 +136,7 @@ While Thor acts like a Bulk processing Database Server, this data is not easily 
 
 **Data Organization in ROXIE**
 
-![](./Images/roxie-data-flow.png) 
+![](./Images/roxie-data-organization.png) 
 
 While Thor is based on a Manager and Worker design, and while this design works really well for Bulk processing, it is very limited for processing queries. This is because queries are inherently concurrent and need sub second response times. Hence, ROXIE employs a **Server** and **Worker** design. While the workers are similar in function to the Thor worker where the workers process a partition of the data, the ROXIE server acts as 1) a receiver of the query request 2) understands the data partitioning w.r.t workers to fulfill the query request 3) messages all the needed workers for the data 4) consolidates the data and returns the results to the calling process. A single ROXIE cluster can have 1 to many  server and worker combinations. It all depends on how many data partitions make the processing efficient. 
 
