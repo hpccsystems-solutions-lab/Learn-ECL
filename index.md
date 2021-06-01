@@ -30,9 +30,9 @@ This powerful, versatile platform makes it easier for developers to see the data
 
 ## Start Learning
 
-[Introducing the HPCC Systems Data Lake Platform](/LearnECL/Architecture/dataLake.md/Architecture/)
+[Introducing the HPCC Systems Data Lake Platform](./LearnECL/Architecture/dataLake.md)
 
-[Getting Started with Learning ECL](/LearnECL/Architecture/dataLake.md/Architecture/)
+[Getting Started with Learning ECL](./LearnECL/MainConcepts/gettingStarted.md)
 
 
 ## Contact Us
