@@ -147,6 +147,6 @@ The data partitions are sourced from a Thor cluster as shown in the diagram.
 The API that is made available via ROXIE is written in ECL and is identical to writing an ECL query in Thor.  Once the query is compiled, it is then published to ROXIE as an end point API. 
 
 
-
+[More Details of HPCC Systems internals and middleware?](./dataLakeDetailed.md)
 
 
